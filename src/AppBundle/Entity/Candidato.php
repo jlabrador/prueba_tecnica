@@ -88,6 +88,16 @@ class Candidato
     private $estado;
 
     /**
+     * @var \AppBundle\Entity\Estado
+     *
+     * @ORM\ManyToOne(targetEntity="\AppBundle\Entity\Estado", inversedBy="candidatos")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="consultora", referencedColumnName="id")
+     * })
+     */
+    private $consultora;
+
+    /**
      * Get id
      *
      * @return integer
@@ -312,5 +322,29 @@ class Candidato
     public function getNombre()
     {
         return $this->nombre;
+    }
+
+    /**
+     * Set consultora
+     *
+     * @param \AppBundle\Entity\Estado $consultora
+     *
+     * @return Candidato
+     */
+    public function setConsultora(\AppBundle\Entity\Estado $consultora = null)
+    {
+        $this->consultora = $consultora;
+
+        return $this;
+    }
+
+    /**
+     * Get consultora
+     *
+     * @return \AppBundle\Entity\Estado
+     */
+    public function getConsultora()
+    {
+        return $this->consultora;
     }
 }

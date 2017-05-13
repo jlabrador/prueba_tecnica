@@ -16,6 +16,9 @@ class Candidato extends AbstractAdmin
             ->with('Datos', array('class' => 'col-md-4'))
                 ->add('email', 'text')
                 ->add('nombre', 'text')
+                ->add('consultora', 'entity', array(
+                    'class' => 'AppBundle\Entity\Consultora',
+                ))
                 ->add('observaciones', 'textarea', array('required' => false))
             ->end()
             ->with('Prueba', array('class' => 'col-md-5'))

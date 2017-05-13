@@ -14,7 +14,14 @@ services:
                 - { name: sonata.admin, manager_type: orm, label: Candidato }
 
     admin.estado:
-                class: AppBundle\Admin\Estado
-                arguments: [~, AppBundle\Entity\Estado, ~]
-                tags:
-                    - { name: sonata.admin, manager_type: orm, label: Estado }
+            class: AppBundle\Admin\Estado
+            arguments: [~, AppBundle\Entity\Estado, ~]
+            tags:
+                - { name: sonata.admin, manager_type: orm, label: Estado }
+
+
+    admin.consultora:
+            class: AppBundle\Admin\Consultora
+            arguments: [~, AppBundle\Entity\Consultora, ~]
+            tags:
+                - { name: sonata.admin, manager_type: orm, label: Consultora }

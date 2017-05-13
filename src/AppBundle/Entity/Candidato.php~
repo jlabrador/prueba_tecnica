@@ -88,6 +88,16 @@ class Candidato
     private $estado;
 
     /**
+     * @var \AppBundle\Entity\Estado
+     *
+     * @ORM\ManyToOne(targetEntity="\AppBundle\Entity\Estado", inversedBy="candidatos")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="consultora", referencedColumnName="id")
+     * })
+     */
+    private $consultora;
+
+    /**
      * Get id
      *
      * @return integer
