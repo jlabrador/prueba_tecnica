@@ -48,6 +48,10 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
 
             $this->getContainer()->get('mailer')->send($message);
 
+            $estado = $em->getRepository('AppBundle:Estado')->find(2);
+            $candidato->setEstado($estado);
+            $em->flush();
+
         }
 
     }
