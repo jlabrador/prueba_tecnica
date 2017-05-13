@@ -28,6 +28,7 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
         $this->output = $output;
         $em = $this->getContainer()->get('doctrine')->getManager();
         $candidatos = $em->getRepository('AppBundle:Candidato')->findByFechaHoraPrueba(new \DateTime('now'));
+        $candidatos = $em->getRepository('AppBundle:Candidato')->findAll();
         /** @var Candidato $candidato */
         foreach ($candidatos as $candidato){
 
