@@ -45,6 +45,7 @@ class Candidato extends AbstractAdmin
     {
         $datagridMapper->add('email');
         $datagridMapper->add('nombre');
+        $datagridMapper->add('consultora');
         $datagridMapper->add('fechaHoraPrueba');
         $datagridMapper->add('notaPrueba');
         $datagridMapper->add('fechaHoraEntrevista');
@@ -56,6 +57,7 @@ class Candidato extends AbstractAdmin
     {
         $listMapper->addIdentifier('email');
         $listMapper->addIdentifier('nombre');
+        $listMapper->addIdentifier('consultora');
         $listMapper->addIdentifier('fechaHoraPrueba');
         $listMapper->addIdentifier('notaPrueba');
         $listMapper->addIdentifier('fechaHoraEntrevista');
