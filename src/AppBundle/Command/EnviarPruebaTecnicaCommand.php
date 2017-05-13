@@ -28,7 +28,6 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
         $this->output = $output;
         $em = $this->getContainer()->get('doctrine')->getManager();
         $fecha = new \DateTime(date('Y-m-d H:i:00'));
-        dump($fecha);
         $candidatos = $em->getRepository('AppBundle:Candidato')->findByFechaHoraPrueba($fecha);
         /** @var Candidato $candidato */
         foreach ($candidatos as $candidato){
@@ -37,9 +36,11 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
                 ->setSubject('Prueba técnica de LaLiga')
                 ->setFrom('jose.labrador.gonzalez@gmail.com')
                 ->setTo($candidato->getEmail())
+                ->addCc('jose.labrador.gonzalez@gmail.com')
+                ->addCc('jvillarejo@laliga.es')
+                ->addCc('mmartinez@laliga.es')
                 ->setBody(
                     $this->getContainer()->get('twig')->render(
-                    // app/Resources/views/Emails/registration.html.twig
                         'default/prueba.html.twig',
                         array('nombre', $candidato->getNombre())
                     ),
