@@ -13,22 +13,27 @@ class Candidato extends AbstractAdmin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->with('Datos', array('class' => 'col-md-9'))
+            ->with('Datos', array('class' => 'col-md-4'))
                 ->add('email', 'text')
                 ->add('nombre', 'text')
-                ->add('fechaHoraPrueba', 'datetime')
-                ->add('notaPrueba', 'text', array('required' => false))
-                ->add('fechaHoraEntrevista', 'datetime', array('required' => false))
-                ->add('notaEntrevista', 'text', array('required' => false))
-                ->add('urlPrueba', 'text', array('required' => false))
                 ->add('observaciones', 'textarea', array('required' => false))
             ->end()
-
+            ->with('Prueba', array('class' => 'col-md-5'))
+                ->add('fechaHoraPrueba', 'datetime')
+                ->add('notaPrueba', 'text', array('required' => false))
+                ->add('urlPrueba', 'text', array('required' => false))
+            ->end()
             ->with('Estado de la prueba', array('class' => 'col-md-3'))
             ->add('estado', 'sonata_type_model', array(
                 'class' => 'AppBundle\Entity\Estado',
             ))
             ->end()
+            ->with('Entrevista', array('class' => 'col-md-5'))
+                ->add('fechaHoraEntrevista', 'datetime', array('required' => false))
+                ->add('notaEntrevista', 'text', array('required' => false))
+            ->end()
+
+
         ;
 
     }
