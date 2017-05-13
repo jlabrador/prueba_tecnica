@@ -88,9 +88,9 @@ class Candidato
     private $estado;
 
     /**
-     * @var \AppBundle\Entity\Estado
+     * @var \AppBundle\Entity\Consultora
      *
-     * @ORM\ManyToOne(targetEntity="\AppBundle\Entity\Estado", inversedBy="candidatos")
+     * @ORM\ManyToOne(targetEntity="\AppBundle\Entity\Consultora", inversedBy="candidatos")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="consultora", referencedColumnName="id")
      * })
@@ -323,4 +323,6 @@ class Candidato
     {
         return $this->nombre;
     }
+
+  
 }
