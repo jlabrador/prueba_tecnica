@@ -29,7 +29,7 @@ class Consultora
     private $nombre;
 
     /**
-     * @ORM\OneToMany(targetEntity="\AppBundle\Entity\Candidato", mappedBy="estado")
+     * @ORM\OneToMany(targetEntity="\AppBundle\Entity\Candidato", mappedBy="consultora")
      */
     private $candidatos;
 
