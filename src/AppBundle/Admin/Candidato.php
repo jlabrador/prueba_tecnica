@@ -23,7 +23,7 @@ class Candidato extends AbstractAdmin
                 ->add('observaciones', 'textarea', array('required' => false))
             ->end()
             ->with('Prueba', array('class' => 'col-md-5'))
-                ->add('fechaHoraPrueba', 'datetime')
+                ->add('fechaHoraPrueba', 'datetime', array('required' => false))
                 ->add('notaPrueba', 'text', array('required' => false))
                 ->add('urlPrueba', 'text', array('required' => false))
                 ->add('observacionesPrueba', 'textarea', array('required' => false))

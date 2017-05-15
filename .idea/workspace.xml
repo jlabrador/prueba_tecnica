@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24fd2455-f211-4c65-af20-eefc81562229" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Candidato.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Candidato.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php" afterPath="$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +14,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Candidato.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Candidato.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Candidato.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="654">
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Candidato.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Candidato.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="294">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding>
                 <element signature="e#35#78#0#PHP" expanded="true" />
               </folding>
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Admin/Consultora.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Candidato.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php" />
       </list>
     </option>
   </component>
@@ -456,12 +456,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494668191125</updated>
-      <workItem from="1494668192325" duration="15228000" />
+      <workItem from="1494668192325" duration="15388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15228000" />
+    <option name="totallyTimeSpent" value="15388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1951" y="0" width="1890" height="1080" extended-state="6" />
@@ -699,21 +699,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#35#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Candidato.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="654">
           <caret line="89" column="75" lean-forward="false" selection-start-line="89" selection-start-column="75" selection-end-line="89" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Admin/Candidato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#35#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
