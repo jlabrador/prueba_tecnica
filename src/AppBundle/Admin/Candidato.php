@@ -16,6 +16,7 @@ class Candidato extends AbstractAdmin
             ->with('Datos', array('class' => 'col-md-4'))
                 ->add('email', 'text')
                 ->add('nombre', 'text')
+                ->add('telefono', 'text')
                 ->add('consultora', 'entity', array(
                     'class' => 'AppBundle\Entity\Consultora',
                 ))
@@ -25,6 +26,7 @@ class Candidato extends AbstractAdmin
                 ->add('fechaHoraPrueba', 'datetime')
                 ->add('notaPrueba', 'text', array('required' => false))
                 ->add('urlPrueba', 'text', array('required' => false))
+                ->add('observacionesPrueba', 'textarea', array('required' => false))
             ->end()
             ->with('Estado de la prueba', array('class' => 'col-md-3'))
             ->add('estado', 'sonata_type_model', array(
@@ -34,6 +36,7 @@ class Candidato extends AbstractAdmin
             ->with('Entrevista', array('class' => 'col-md-5'))
                 ->add('fechaHoraEntrevista', 'datetime', array('required' => false))
                 ->add('notaEntrevista', 'text', array('required' => false))
+                ->add('observacionesEntrevista', 'textarea', array('required' => false))
             ->end()
 
 
@@ -45,6 +48,7 @@ class Candidato extends AbstractAdmin
     {
         $datagridMapper->add('email');
         $datagridMapper->add('nombre');
+        $datagridMapper->add('telefono');
         $datagridMapper->add('consultora');
         $datagridMapper->add('fechaHoraPrueba');
         $datagridMapper->add('notaPrueba');

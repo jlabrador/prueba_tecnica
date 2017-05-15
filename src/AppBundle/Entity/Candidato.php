@@ -31,6 +31,13 @@ class Candidato
     /**
      * @var string
      *
+     * @ORM\Column(name="telefono", type="string", length=250)
+     */
+    private $telefono;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(name="nombre", type="string", length=250, nullable=true)
      */
     private $nombre;
@@ -62,6 +69,20 @@ class Candidato
      * @ORM\Column(name="observaciones", type="string", length=2000, nullable=true)
      */
     protected $observaciones;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observaciones_prueba", type="string", length=2000, nullable=true)
+     */
+    protected $observacionesPrueba;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observaciones_entrevista", type="string", length=2000, nullable=true)
+     */
+    protected $observacionesEntrevista;
 
     /**
      * @var \DateTime
@@ -348,5 +369,77 @@ class Candidato
     public function getConsultora()
     {
         return $this->consultora;
+    }
+
+    /**
+     * Set telefono
+     *
+     * @param string $telefono
+     *
+     * @return Candidato
+     */
+    public function setTelefono($telefono)
+    {
+        $this->telefono = $telefono;
+
+        return $this;
+    }
+
+    /**
+     * Get telefono
+     *
+     * @return string
+     */
+    public function getTelefono()
+    {
+        return $this->telefono;
+    }
+
+    /**
+     * Set observacionesPrueba
+     *
+     * @param string $observacionesPrueba
+     *
+     * @return Candidato
+     */
+    public function setObservacionesPrueba($observacionesPrueba)
+    {
+        $this->observacionesPrueba = $observacionesPrueba;
+
+        return $this;
+    }
+
+    /**
+     * Get observacionesPrueba
+     *
+     * @return string
+     */
+    public function getObservacionesPrueba()
+    {
+        return $this->observacionesPrueba;
+    }
+
+    /**
+     * Set observacionesEntrevista
+     *
+     * @param string $observacionesEntrevista
+     *
+     * @return Candidato
+     */
+    public function setObservacionesEntrevista($observacionesEntrevista)
+    {
+        $this->observacionesEntrevista = $observacionesEntrevista;
+
+        return $this;
+    }
+
+    /**
+     * Get observacionesEntrevista
+     *
+     * @return string
+     */
+    public function getObservacionesEntrevista()
+    {
+        return $this->observacionesEntrevista;
     }
 }
