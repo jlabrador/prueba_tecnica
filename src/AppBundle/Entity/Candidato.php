@@ -87,7 +87,7 @@ class Candidato
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="fecha_hora_prueba", type="datetime")
+     * @ORM\Column(name="fecha_hora_prueba", type="datetime", nullable=true)
      */
     private $fechaHoraPrueba;
 
