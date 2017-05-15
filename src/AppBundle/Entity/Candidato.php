@@ -45,14 +45,14 @@ class Candidato
     /**
      * @var string
      *
-     * @ORM\Column(name="nota_prueba", type="string", length=2, nullable=true)
+     * @ORM\Column(name="nota_prueba", type="string", length=3, nullable=true)
      */
     private $notaPrueba;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="nota_entrevista", type="string", length=2, nullable=true)
+     * @ORM\Column(name="nota_entrevista", type="string", length=3, nullable=true)
      */
     private $notaEntrevista;
 
