@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24fd2455-f211-4c65-af20-eefc81562229" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" afterPath="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -64,15 +64,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnviarPruebaTecnicaCommand.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EnviarPruebaTecnicaCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="444">
+              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding>
                 <element signature="e#1104#1125#1#PHP" expanded="true" />
-                <element signature="e#1740#1766#0#PHP" expanded="true" />
-                <element signature="e#2270#2288#1#PHP" expanded="true" />
+                <element signature="e#1736#1762#0#PHP" expanded="true" />
+                <element signature="e#2266#2284#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Consultora.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/prueba.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" />
       </list>
     </option>
   </component>
@@ -429,12 +429,12 @@
       <workItem from="1496609026516" duration="255000" />
       <workItem from="1499452456856" duration="899000" />
       <workItem from="1499683193187" duration="9000" />
-      <workItem from="1499683267389" duration="1222000" />
+      <workItem from="1499683267389" duration="1817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20577000" />
+    <option name="totallyTimeSpent" value="21172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1951" y="0" width="1890" height="1080" extended-state="6" />
@@ -492,8 +492,8 @@
           <caret line="50" column="77" lean-forward="false" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1740#1766#0#PHP" expanded="true" />
-            <element signature="e#2270#2288#1#PHP" expanded="true" />
+            <element signature="e#1736#1762#0#PHP" expanded="true" />
+            <element signature="e#2266#2284#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,8 +536,8 @@
           <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1740#1766#0#PHP" expanded="true" />
-            <element signature="e#2270#2288#1#PHP" expanded="true" />
+            <element signature="e#1736#1762#0#PHP" expanded="true" />
+            <element signature="e#2266#2284#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,8 +604,8 @@
           <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1740#1766#0#PHP" expanded="true" />
-            <element signature="e#2270#2288#1#PHP" expanded="true" />
+            <element signature="e#1736#1762#0#PHP" expanded="true" />
+            <element signature="e#2266#2284#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,23 +841,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1740#1766#0#PHP" expanded="true" />
-            <element signature="e#2270#2288#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#1104#1125#1#PHP" expanded="true" />
+            <element signature="e#1736#1762#0#PHP" expanded="true" />
+            <element signature="e#2266#2284#1#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
