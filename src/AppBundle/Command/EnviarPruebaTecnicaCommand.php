@@ -47,7 +47,10 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
                     'text/html'
                 )
             ;
-            $message->attach(\Swift_Attachment::fromPath(__DIR__.'/../../../web/data/Prueba técnica LaLiga .docx'));
+//            $message->attach(\Swift_Attachment::fromPath(__DIR__.'/../../../web/data/Prueba técnica LaLiga .docx'));
+            $message->attach(\Swift_Attachment::fromPath(__DIR__.'/../../../web/data/Prueba técnica LaLiga  V1.docx'));
+
+
 
             $this->getContainer()->get('mailer')->send($message);
 
