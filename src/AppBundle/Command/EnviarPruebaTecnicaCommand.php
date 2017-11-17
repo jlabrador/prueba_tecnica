@@ -37,8 +37,8 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
                 ->setFrom('jose.labrador.gonzalez@gmail.com')
                 ->setTo($candidato->getEmail())
                 ->addCc('jose.labrador.gonzalez@gmail.com')
-                ->addCc('jvillarejo@laliga.es')
-                ->addCc('mmartinez@laliga.es')
+//                ->addCc('jvillarejo@laliga.es')
+//                ->addCc('mmartinez@laliga.es')
                 ->setBody(
                     $this->getContainer()->get('twig')->render(
                         'default/prueba.html.twig',
@@ -47,8 +47,7 @@ class EnviarPruebaTecnicaCommand extends ContainerAwareCommand
                     'text/html'
                 )
             ;
-//            $message->attach(\Swift_Attachment::fromPath(__DIR__.'/../../../web/data/Prueba técnica LaLiga .docx'));
-            $message->attach(\Swift_Attachment::fromPath(__DIR__.'/../../../web/data/Prueba técnica LaLiga  V1.docx'));
+            $message->attach(\Swift_Attachment::fromPath(__DIR__.'/../../../web/data/Prueba técnica LaLiga  V2.docx'));
 
 
 
