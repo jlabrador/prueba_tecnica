@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24fd2455-f211-4c65-af20-eefc81562229" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/prueba.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/prueba.html.twig" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" afterPath="$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +17,14 @@
       <file leaf-file-name="EnviarPruebaTecnicaCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="486">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="e#1104#1125#1#PHP" expanded="true" />
-                <element signature="e#1727#1753#0#PHP" expanded="true" />
-                <element signature="e#2138#2156#1#PHP" expanded="true" />
+                <element signature="e#1731#1757#0#PHP" expanded="true" />
+                <element signature="e#2142#2160#1#PHP" expanded="true" />
+                <marker date="1510946042909" expanded="true" signature="1543:1565" ph="..." />
+                <marker date="1510946042909" expanded="true" signature="1593:1614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -325,12 +326,12 @@
       <workItem from="1499452456856" duration="899000" />
       <workItem from="1499683193187" duration="9000" />
       <workItem from="1499683267389" duration="3014000" />
-      <workItem from="1510943972910" duration="2024000" />
+      <workItem from="1510943972910" duration="2069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24393000" />
+    <option name="totallyTimeSpent" value="24438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1951" y="0" width="1890" height="1080" extended-state="6" />
@@ -390,8 +391,10 @@
           <caret line="50" column="77" lean-forward="false" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1727#1753#0#PHP" expanded="true" />
-            <element signature="e#2138#2156#1#PHP" expanded="true" />
+            <element signature="e#1731#1757#0#PHP" expanded="true" />
+            <element signature="e#2142#2160#1#PHP" expanded="true" />
+            <marker date="1510946042909" expanded="true" signature="1543:1565" ph="..." />
+            <marker date="1510946042909" expanded="true" signature="1593:1614" ph="..." />
           </folding>
         </state>
       </provider>
@@ -431,8 +434,10 @@
           <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1727#1753#0#PHP" expanded="true" />
-            <element signature="e#2138#2156#1#PHP" expanded="true" />
+            <element signature="e#1731#1757#0#PHP" expanded="true" />
+            <element signature="e#2142#2160#1#PHP" expanded="true" />
+            <marker date="1510946042909" expanded="true" signature="1543:1565" ph="..." />
+            <marker date="1510946042909" expanded="true" signature="1593:1614" ph="..." />
           </folding>
         </state>
       </provider>
@@ -496,8 +501,10 @@
           <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1727#1753#0#PHP" expanded="true" />
-            <element signature="e#2138#2156#1#PHP" expanded="true" />
+            <element signature="e#1731#1757#0#PHP" expanded="true" />
+            <element signature="e#2142#2160#1#PHP" expanded="true" />
+            <marker date="1510946042909" expanded="true" signature="1543:1565" ph="..." />
+            <marker date="1510946042909" expanded="true" signature="1593:1614" ph="..." />
           </folding>
         </state>
       </provider>
@@ -738,12 +745,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/EnviarPruebaTecnicaCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="486">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="e#1104#1125#1#PHP" expanded="true" />
-            <element signature="e#1727#1753#0#PHP" expanded="true" />
-            <element signature="e#2138#2156#1#PHP" expanded="true" />
+            <element signature="e#1731#1757#0#PHP" expanded="true" />
+            <element signature="e#2142#2160#1#PHP" expanded="true" />
+            <marker date="1510946042909" expanded="true" signature="1543:1565" ph="..." />
+            <marker date="1510946042909" expanded="true" signature="1593:1614" ph="..." />
           </folding>
         </state>
       </provider>
